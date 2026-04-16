@@ -21,11 +21,7 @@ function collectIngredients() {
   return document
     .querySelectorAll("div[class*=\"recipebody_ingredients\"] ul li")
     .values()
-    .map((n) => {
-      // Each list item contains a pair of amount and ingredient
-      const [amount, ingredient] = n.children;
-      return `${amount?.innerText} ${ingredient?.innerText}`;
-    });
+    .map((n) => Array.from(n.children).map((c) => c.innerText).join(" "));
 }
 
 function collectRecipeSteps() {
@@ -64,5 +60,4 @@ function scrapeRecipe() {
 
   const scrapeCmd = "Copy Markdown Recipe";
   GM.registerMenuCommand(scrapeCmd, scrapeRecipe);
-
 })();
