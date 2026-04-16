@@ -46,7 +46,7 @@ function buildMarkdown() {
     "\n## Recipe\n",
     ...recipeSteps,
     "\n## Notes\n",
-    `This recipe was sourced by [New York Times Cooking](${url})\n`,
+    `This recipe was sourced from [New York Times Cooking](${url}).\n`,
   ].join("\n");
 }
 
