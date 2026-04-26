@@ -20,3 +20,9 @@ On *New York Times Cooking* recipe pages
 Markdown version of the current recipe to the system clipboard.
 
 **Location:** `scripts/nyt_cooking_to_markdown.js`
+
+### Dufus
+
+On *Amazon* pages, renames the "Rufus" button to "Dufus."
+
+**Location:** `scripts/dufus.js`
