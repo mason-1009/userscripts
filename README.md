@@ -5,6 +5,14 @@ modern web experience.
 
 ## Scripts
 
+### Google AI-Away(TM)
+
+On *Google* search results and main search page, automatically removes "AI
+Mode" buttons, "AI Overviews," and banners promoting Google's vaporware and PR
+campaigns.
+
+**Location**: `scripts/google_ai_away.js`
+
 ### NYT Cooking to Markdown
 
 On *New York Times Cooking* recipe pages
