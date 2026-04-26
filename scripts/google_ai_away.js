@@ -3,9 +3,11 @@
 // @version      2026-04-26
 // @description  Removes unwanted AI features from Google Search
 // @author       You
-// @match        https://google.com
-// @match        https://google.com/search*
+// @match        *://google.com*
+// @match        *://google.com/search*
 // @icon         https://icons.duckduckgo.com/ip2/google.com.ico
+// @updateURL    https://github.com/mason-1009/userscripts/raw/refs/heads/main/scripts/google_ai_away.js
+// @downloadURL  https://github.com/mason-1009/userscripts/raw/refs/heads/main/scripts/google_ai_away.js
 // ==/UserScript==
 
 // Banner messages to replace
