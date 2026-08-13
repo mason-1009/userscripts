@@ -26,3 +26,10 @@ Markdown version of the current recipe to the system clipboard.
 On *Amazon* pages, renames the "Rufus" button to "Dufus."
 
 **Location:** `scripts/dufus.js`
+
+### Fix Reddit
+
+Removes anti-user shill pop-ups and forced sign-in prompts from the desktop and
+mobile version of the *Reddit* website.
+
+**Location:** `scripts/fix_reddit.js`
