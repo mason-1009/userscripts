@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Fix Reddit
-// @version      2026-08-12
+// @version      2026-08-13
 // @description  Removes annoying anti-features from Reddit
 // @author       You
 // @match        https://www.reddit.com*
