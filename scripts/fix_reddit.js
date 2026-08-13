@@ -41,7 +41,7 @@ function mobileRemoveGetAppButton() {
 
   if (button !== null) {
     console.log('Removing right top bar open app button...');
-    banner.remove();
+    button.remove();
   }
 }
 
