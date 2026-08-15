@@ -3,7 +3,8 @@
 // @version      2026-08-13
 // @description  Removes annoying anti-features from Reddit
 // @author       You
-// @match        https://www.reddit.com*
+// @match        *://reddit.com*
+// @match        *://*.reddit.com*
 // @icon         https://icons.duckduckgo.com/ip2/reddit.com.ico
 // @updateURL    https://github.com/mason-1009/userscripts/raw/refs/heads/main/scripts/fix_reddit.js
 // @downloadURL  https://github.com/mason-1009/userscripts/raw/refs/heads/main/scripts/fix_reddit.js
