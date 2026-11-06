@@ -7,6 +7,8 @@
 // @icon         https://icons.duckduckgo.com/ip2/nytimes.com.ico
 // @grant        GM.setClipboard
 // @grant        GM.registerMenuCommand
+// @updateURL    https://raw.githubusercontent.com/mason-1009/userscripts/refs/heads/main/scripts/nyt_cooking_to_markdown.js
+// @downloadURL  https://raw.githubusercontent.com/mason-1009/userscripts/refs/heads/main/scripts/nyt_cooking_to_markdown.js
 // ==/UserScript==
 
 function asciify(text) {
